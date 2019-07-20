@@ -5,7 +5,7 @@
 .container__inner {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 6px;
-    padding: 10px 15px;
+    padding: 10px 15px 20px;
 }
 
 .list-group__car-item + .list-group__car-item {
