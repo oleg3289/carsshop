@@ -13,9 +13,6 @@ export class CarsFormComponent implements OnInit {
   carName: string = "";
   carModel: string = "";
 
-  mycars: Car[];
-  error:any;
-
   constructor( private servece: CarsService) { }
 
   ngOnInit() {

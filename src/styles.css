@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+.content {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: url("./assets/img/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}

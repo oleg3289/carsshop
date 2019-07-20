@@ -1,20 +1,6 @@
 {
   "cars": [
     {
-      "id": 1,
-      "name": "Ford",
-      "date": "12.12.06",
-      "model": "Mondeo",
-      "isSold": false
-    },
-    {
-      "id": 2,
-      "name": "Audi",
-      "date": "04.05.12",
-      "model": "RX7",
-      "isSold": true
-    },
-    {
       "name": "Mercedes",
       "date": "10.07.19",
       "model": "SL-500",
@@ -22,11 +8,18 @@
       "id": 3
     },
     {
-      "name": "lol",
+      "name": "Ford",
       "date": "20.07.19",
-      "model": "lol",
-      "isSold": true,
+      "model": "Modeo",
+      "isSold": false,
       "id": 4
+    },
+    {
+      "name": "Mazda",
+      "date": "20.07.19",
+      "model": "RX-7",
+      "isSold": false,
+      "id": 5
     }
   ]
 }
