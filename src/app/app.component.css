@@ -1,0 +1,7 @@
+.container {
+    margin-top: 50px;
+}
+
+.list-group__car-item + .list-group__car-item {
+    margin-top: 20px;
+}

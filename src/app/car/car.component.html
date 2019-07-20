@@ -1,0 +1,21 @@
+<div href="#" class="list-group-item flex-column align-items-start"
+    [ngClass]="{
+        'list-group-item-danger': car.isSold
+    }"
+>
+    <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{car.name}}</h5>
+        <small>{{car.date}}</small>
+    </div>
+    <p class="mb-1">{{car.model}}</p>
+    
+    <button type="button" (click)="onBuy()" class="btn btn-outline-success btn-sm mr-2"
+        [disabled]="car.isSold"
+    >Buy</button>
+    <button 
+    type="button" 
+    (click)="onDelete()" 
+    class="btn btn-outline-danger btn-sm"
+    
+    >Delete</button>
+</div>

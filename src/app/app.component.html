@@ -1,0 +1,13 @@
+<div class="container">
+  
+  <app-cars-form></app-cars-form>
+
+  <div class="list-group mt-5">
+    <app-car
+      [car]="c"
+      *ngFor="let c of (carState | async).cars"
+      class="list-group__car-item"
+    ></app-car>
+  </div>
+
+</div>
