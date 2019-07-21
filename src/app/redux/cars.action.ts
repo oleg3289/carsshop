@@ -26,10 +26,4 @@ export class UpdateCar implements Action {
     constructor(public payload: Car) {}
 }
 
-export class LoadCars implements Action {
-    readonly type = CAR_ACTION.LOAD_CAR
-
-    constructor(public payload: Car[]) {}
-}
-
-export type CarsAction = AddCar | DeleteCar | UpdateCar | LoadCars
+export type CarsAction = AddCar | DeleteCar | UpdateCar
