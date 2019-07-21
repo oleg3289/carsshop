@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Car } from '../car.model';
-import * as moment from 'moment';
+import moment from 'moment';
 import { Store } from '@ngrx/store';
 import { AppState } from '../redux/app.state';
 import { AddCar } from '../redux/cars.action';
